@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="203.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.Controller4">
+   <children>
+      <ComboBox fx:id="comboBox" layoutX="23.0" layoutY="127.0" prefWidth="150.0" />
+      <Label fx:id="name" layoutX="238.0" layoutY="58.0" prefHeight="26.0" prefWidth="256.0" style="-fx-background-color: #dddd;" />
+      <Label fx:id="weight" layoutX="238.0" layoutY="115.0" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: #dddd;" />
+      <Label fx:id="radius" layoutX="368.0" layoutY="115.0" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: #dddd;" />
+      <Label layoutX="286.0" layoutY="98.0" text="Масса" />
+      <Label layoutX="413.0" layoutY="98.0" text="Радиус" />
+      <Label layoutX="340.0" layoutY="40.0" text="Название" />
+   </children>
+</AnchorPane>
