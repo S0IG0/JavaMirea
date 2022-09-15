@@ -1,4 +1,4 @@
-package practic_1;
+package Practic_1;
 
 //Задание на практическую работу №1
 //1. Создать проект в IntelliJ IDEA
