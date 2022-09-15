@@ -13,7 +13,7 @@ package Practic_1;
 
 import java.util.Random;
 
-public class Practic_1 {
+public class Main {
 
     public static int sumArrayFor(int[] array){
         int result = 0;
