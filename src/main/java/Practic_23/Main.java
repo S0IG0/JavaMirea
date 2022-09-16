@@ -52,6 +52,14 @@ public class Main {
             }});
         }};
 
-        System.out.println(map);
+        ArrayList<City> cities = new ArrayList<>();
+
+        for(String keys1: map.keySet()){
+            for(String value1: map.get(keys1)){
+                cities.add(new City(keys1, value1));
+            }
+        }
+
+        System.out.println(cities);
     }
 }
